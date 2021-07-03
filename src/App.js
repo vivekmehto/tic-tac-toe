@@ -1,25 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import "./style.css";
+import Icon from "./components/Icon";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+
+import { Card, CardBody, Container, Button, Col, Row } from "reactstrap";
+import "bootstrap/dist/css/bootstrap.min.css";
+
+const itemArray = new Array(0).fill("empty");
+
+const App = () => {
+  const [isCross, setIsCross] = useState(false);
+  const [winMessage, setWinMessage] = useState("");
+
+  const reloadGame = () => {
+    //
+  };
+
+  const checkIsWinner = () => {
+    //
+  };
+
+  const changeItem = (itemNumber) => {
+    //
+  };
+
+  return <Icon name="empty" />;
+};
 
 export default App;
