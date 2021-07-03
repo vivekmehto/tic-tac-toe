@@ -1,6 +1,7 @@
 body {
   background-color: #000000;
 }
+
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -13,9 +14,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+
 }
 
 .icon {
   font-size: 35px;
-  color: #ffffff;
 }
