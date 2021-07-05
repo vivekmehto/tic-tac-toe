@@ -14,9 +14,11 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
 .icon {
   font-size: 35px;
+}
+.box:hover {
+  background-color: aqua;
 }
