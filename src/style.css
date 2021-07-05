@@ -10,15 +10,20 @@ body {
 
 .box {
   width: auto;
-  height: 100px;
+  height: 15vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .icon {
-  font-size: 35px;
+  font-size: 2rem;
 }
+
+.btn {
+  padding: 0% 40%;
+}
+
 .box:hover {
-  background-color: aqua;
+  background-color: yellowgreen;
 }

@@ -101,7 +101,7 @@ const App = () => {
               <h1 className="text-success text-center text-uppercase">
                 {winMessage}
               </h1>
-              <Button color="success" block onClick={reloadGame}>
+              <Button color="success" size="lg" block onClick={reloadGame}>
                 Reload the Game
               </Button>
             </div>
