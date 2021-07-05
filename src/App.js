@@ -98,21 +98,21 @@ const App = () => {
         <Col md={6} className="offset-md-3">
           {winMessage ? (
             <div className="mb-2 mt-2">
-              <h1 className="text-success text-center text-uppercase">
+              <h1 className="text-primary text-center text-uppercase">
                 {winMessage}
               </h1>
-              <Button color="success" size="lg" block onClick={reloadGame}>
+              <Button color="primary" size="lg" block onClick={reloadGame}>
                 Reload the Game
               </Button>
             </div>
           ) : (
-            <h1 className="text-center text-warning">
+            <h1 className="text-center text-primary ">
               {isCross ? "Cross" : "Circle"} turns
             </h1>
           )}
           <div className="grid">
             {itemArray.map((item, index) => (
-              <Card color="warning" onClick={() => changeItem(index)}>
+              <Card onClick={() => changeItem(index)}>
                 <CardBody className="box">
                   <Icon name={item} />
                 </CardBody>

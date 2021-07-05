@@ -1,5 +1,5 @@
 body {
-  background-color: #000000;
+  background-color: #f0ebcc;
 }
 
 .grid {
@@ -14,6 +14,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #77acf1;
 }
 
 .icon {
@@ -25,5 +26,6 @@ body {
 }
 
 .box:hover {
-  background-color: yellowgreen;
+  background-color: #3edbf0;
+  transform: rotate(2deg);
 }
